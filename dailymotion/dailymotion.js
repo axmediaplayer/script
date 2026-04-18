@@ -20,7 +20,7 @@
       bottom: "20px",
       right: "20px",
       zIndex: "999999",
-      padding: "0px",
+      padding: "6px",
       background: "transparent",
       color: "#fff",
       borderRadius: "0px",
