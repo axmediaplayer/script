@@ -50,7 +50,7 @@
       if (!url) {
         url = await getViaThreeDot(container);
         if(url==null){
-          JavaInterface.onCopyClick(url);
+          JavaInterface.onCopyClick();
         }
       }
 
