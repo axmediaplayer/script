@@ -25,7 +25,7 @@ function getLinkFromDOM(event) {
   const videoId = parentDiv.getAttribute("data-video-id");
   const videoUrl = "https://en-gb.facebook.com/video/video.php?v=" + videoId;
   console.log(videoUrl);
-  JavaInterface.onFacebookUrlClick(videoUrl);
+  JavaInterface.onUrlClick(videoUrl);
 }
 
 function createDownloadButton(article) {

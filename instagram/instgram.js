@@ -55,7 +55,7 @@
       }
 
       if (url) {
-          JavaInterface.onInstagramOnlyUrlClick(url);
+          JavaInterface.onUrlClick(url);
       }
     };
 
