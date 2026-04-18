@@ -49,10 +49,12 @@
 
       if (!url) {
         url = await getViaThreeDot(container);
+        if(url==null){
+          JavaInterface.onCopyClick(url);
+        }
       }
 
       if (url) {
-        await navigator.clipboard.writeText(url);
           JavaInterface.onInstagramOnlyUrlClick(url);
       }
     };
