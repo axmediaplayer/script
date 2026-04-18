@@ -20,11 +20,12 @@
       bottom: "20px",
       right: "20px",
       zIndex: "999999",
-      padding: "12px",
+      padding: "0px",
       background: "transparent",
       color: "#fff",
-      borderRadius: "8px",
-      cursor: "pointer"
+      borderRadius: "0px",
+      cursor: "pointer",
+      border: "none"
     });
 
     btn.onclick = async () => {
