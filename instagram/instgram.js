@@ -39,7 +39,7 @@
      zIndex: "99999",
      padding: "6px",
      background: "transparent",
-      borderRadius: "6px",
+      borderRadius: "0px",
      cursor: "pointer",
      border: "none"
    });
