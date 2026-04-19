@@ -12,7 +12,7 @@
   }
 
   function scan() {
-    document.querySelectorAll("article, video").forEach((el) => {
+    document.querySelectorAll("video").forEach((el) => {
       const container = el.closest("article") || el.closest("div");
 
       if (!container || container.querySelector("." + BTN_CLASS)) return;
@@ -34,7 +34,7 @@
 
    Object.assign(btn.style, {
      position: "absolute",
-     bottom: "10px",
+     bottom: "150px",
      right: "10px",
      zIndex: "99999",
      padding: "6px",
