@@ -49,7 +49,7 @@
       if (!url) return;
 
       console.log("VIDEO URL:", url);
-      JavaInterface.onPhotosClick(JSON.stringify([url]));
+       JavaInterface.onUrlClick(url);
     };
 
     article.appendChild(btn);
