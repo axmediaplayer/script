@@ -36,8 +36,8 @@
       right: "10px",
       zIndex: "99999",
       padding: "6px",
-      background: "rgba(0,0,0,0.6)",
-      borderRadius: "50%",
+     background: "transparent",
+      borderRadius: "0%",
       cursor: "pointer"
     });
     if (getComputedStyle(article).position === "static") {
